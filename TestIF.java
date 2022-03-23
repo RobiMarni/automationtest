@@ -18,7 +18,7 @@ public class TestIF {
         int damage = scanner.nextInt();
 
 
-        if (sales > quote && damage < 2)
+        if (sales <= quote && damage < 2)
         {
             salary = salary + bonus;
 
